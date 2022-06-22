@@ -13,7 +13,7 @@
   "homepage": "https://github.com/fwazeter/wazframe-block-editor/blob/main/README.md",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fwazeter/wazframe-block-editor.git"
+    "url": "git+https://github.com/fwazeter/wazframe-block-editor.git"
   },
   "main": "build/index.js",
   "module": "build-module/index.js",
@@ -33,5 +33,11 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/fwazeter/wazframe-block-editor/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
