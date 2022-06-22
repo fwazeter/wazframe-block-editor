@@ -10,6 +10,8 @@
     "editor",
     "blocks"
   ],
+  "homepage": "https://github.com/fwazeter/wazframe-block-editor",
+  "repository": ,
   "main": "build/index.js",
   "module": "build-module/index.js",
   "sideEffects": [
