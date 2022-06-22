@@ -1,0 +1,31 @@
+{
+  "name": "@wazframe/block-editor",
+  "version": "0.1.0",
+  "description": "Reusable editor components for the WordPress Block Editor.",
+  "author": "Frank Wazeter",
+  "license": "GPL-2.0-or-later",
+  "keywords": [
+    "wordpress",
+    "gutenberg",
+    "editor",
+    "blocks"
+  ],
+  "main": "build/index.js",
+  "module": "build-module/index.js",
+  "sideEffects": [
+    "{}"
+  ],
+  "devDependencies": {
+    "lodash": "^4.17.21",
+    "classnames": "^2.3.1",
+    "@wordpress/block-editor": "^9.3.0",
+    "@wordpress/components": "^19.13.0",
+    "@wordpress/data": "^6.11.0",
+    "@wordpress/element": "^4.9.0",
+    "@wordpress/i18n": "^4.11.0",
+    "@wordpress/icons": "^9.2.0"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
