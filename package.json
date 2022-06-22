@@ -10,13 +10,13 @@
     "editor",
     "blocks"
   ],
-  "homepage": "https://github.com/fwazeter/wazframe-block-editor",
-  "repository": ,
+  "homepage": "https://github.com/fwazeter/wazframe-block-editor/blob/main/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fwazeter/wazframe-block-editor.git"
+  },
   "main": "build/index.js",
   "module": "build-module/index.js",
-  "sideEffects": [
-    "{}"
-  ],
   "devDependencies": {
     "lodash": "^4.17.21",
     "classnames": "^2.3.1",
@@ -27,7 +27,11 @@
     "@wordpress/i18n": "^4.11.0",
     "@wordpress/icons": "^9.2.0"
   },
-  "scripts": {
-    "test": "jest"
+  "peerDependencies": {
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
